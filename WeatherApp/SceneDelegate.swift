@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        window?.rootViewController = WeatherDayViewController()
 //        window?.rootViewController = ViewController()
 
-        let weatherVC = WeatherDayViewController()
+        let weatherVC = WeatherViewController()
         let navController = UINavigationController(rootViewController: weatherVC)
         
         // Устанавливаем UINavigationController как корневой контроллер для окна приложения
